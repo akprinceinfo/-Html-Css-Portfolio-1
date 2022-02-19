@@ -1,0 +1,113 @@
+/*menu-btn responsive start*/
+/*980-768-440*/
+@media (max-width:980px) {
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .navber .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navber .menu.active {
+        left: 0px;
+    }
+
+    .navber .menu li {
+        display: block;
+    }
+
+    .navber .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+    }
+
+    .navber .menu li a:hover {
+        color: red;
+    }
+
+    .home .home-container .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-container .text-3 {
+        font-size: 35px;
+    }
+    .services .serv-container .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+/*--------------------------------   max-width:768px   --------------------------------------------*/
+@media(max-width:768px) {
+    .home .home-container a {
+        font-size: 20px;
+        padding: 8px 25px;
+    }
+
+    .max-width{
+        max-width: 800px;
+    }
+    .about .about-container .colimn{
+        width: 50%;
+    }
+    .about .about-container .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-container .right{
+        flex: 100%;
+    }
+    .services .serv-container .card{
+        width: 100%;
+    }
+    .skills .skills-content .colum,
+    .contact .contact-contact .colum{
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+}
+
+
+/*menu-btn responsive End*/
+/*--------------------------------   max-width:440px   --------------------------------------------*/
+@media(max-width:440px) {
+    .home .home-container .text-2 {
+        font-size: 33px;
+    }
+
+    .about-container .left img {
+        margin-left: 22%;
+    }
+
+    .home .home-container .text-1 {
+        font-size: 20px;
+        margin-left: 5px;
+        padding-bottom: 5px;
+    }
+
+    .home .home-container .text-3 {
+        font-size: 31px;
+        margin-left: 0px;
+    }
+}
