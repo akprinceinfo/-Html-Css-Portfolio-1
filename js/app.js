@@ -69,7 +69,7 @@ function topFunction() {
 //Typing animation script
 
 var typed = new Typed(".typing", {
-   strings: ["YouTuber","Developer","Designer"],
+   strings: ["Designer","YouTuber"],
     typeSpeed:100,
     backSpeed:80,
     loop:true

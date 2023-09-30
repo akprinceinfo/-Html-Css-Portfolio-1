@@ -40,7 +40,7 @@ html {
 
 .sticky {
     padding: 15px 0;
-    background: red;
+    background: #060606;
     color: aqua;
 }
 
@@ -146,8 +146,9 @@ html {
     background-position: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1400px 130vh;
-    min-height: 500px;
+    /* background-size: 1400px 130vh; */
+    background-size: cover;
+    width: 100vw;
 }
 
 .home .max-width {
@@ -456,7 +457,7 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 85%;
 }
 
 .skills-content .right .js::before {
@@ -466,9 +467,12 @@ section .title::after {
 .skills-content .right .php::before {
     width: 50%;
 }
+.skills-content .right .WordPress::before {
+    width: 85%;
+}
 
 .skills-content .right .sql::before {
-    width: 70%;
+    width: 40%;
 }
 
 /*--------------Skills section styling End------------------*/
